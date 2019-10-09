@@ -1,0 +1,18 @@
+/* pages/welcom/welcom.wxss */
+
+.user-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.moto-container {
+    margin-top: 200rpx;
+}
+
+.moto {
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 10rpx;
+}

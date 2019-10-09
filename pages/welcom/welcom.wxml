@@ -1,0 +1,8 @@
+<view class="container">
+    <text>ddddd</text>
+    <image class="user-avatar" src='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJjXX34jpBeUJeVW1icDKiaQMIpADERsCPAB3Gqu8TomsIldibRvicnv1jY1g3wibFOuqr3lh1sWG58zrQ/132'></image>
+
+    <view class="moto-container" bindtap="tapName">
+        <text class="moto">open the door</text>
+    </view>
+</view>
