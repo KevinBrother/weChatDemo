@@ -1,0 +1,15 @@
+/* pages/tabOne/tabOne.wxss */
+.widget_arrow {
+    width: 25px;
+    height: 25px;
+}
+
+.widget_arrow2 {
+    width: 125px;
+    height: 125px;
+}
+
+.widget_arrow3{
+    width:55px; 
+    height:55px; 
+}
