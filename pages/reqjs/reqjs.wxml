@@ -1,0 +1,7 @@
+<!--pages/reqjs/reqjs.wxml-->
+<import src="/pages/template/mytmp"/>
+<text>pages/reqjs/reqjs.wxml</text>
+<view>{{time}}</view>
+<template is="msgItem"/>
+<template is="oneMsg" data="{{time}}"/>
+<template is="objMsg" data="{{...item}}"/>

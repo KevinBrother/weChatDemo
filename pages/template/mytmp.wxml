@@ -1,0 +1,33 @@
+<!--pages/template/mytmp.wxml-->
+<text>pages/template/mytmp.wxml</text>
+<template name="msgItem">
+  <view>
+    <text class="template_style">This is template.wxml文件，我是一个模板</text>
+  </view>
+</template>
+
+<template name="oneMsg">
+  <view>
+    <text class="template_style">{{time}}</text>
+  </view>
+</template>
+
+<template name="objMsg">
+  <view>
+    <text class="template_style">{{index}}</text>,
+    <text class="template_style">{{msg}}</text>,
+    <text class="template_style">{{time}}</text>,
+  </view>
+</template>
+
+
+<template name="blockMsg">
+  <block>
+    <view >
+      <text class="template_style">{{index}}</text>,
+      <text class="template_style">{{msg}}</text>,
+      <text class="template_style">{{time}}</text>,
+    </view>
+  </block>
+</template>
+ 

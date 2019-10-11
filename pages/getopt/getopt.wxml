@@ -1,0 +1,3 @@
+<!--pages/getopt.wxml-->
+<text>pages/getopt.wxml</text>
+<image src="{{pic_url}}" mode="aspectFill"></image>
