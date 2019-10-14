@@ -1,52 +1,59 @@
 {
-  "pages": [
-    "pages/tabOne/tabOne",
-    "pages/logs/logs",
-    "pages/index/index",
-    "pages/welcom/welcom",
-    "pages/tabTwo/tabTwo",
-    "pages/wxkey/wxkey",
-    "pages/getopt/getopt",
-    "pages/reqjs/reqjs",
-    "pages/template/mytmp"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "测试小程序",
-    "navigationBarTextStyle": "black"
-  },
-  "sitemapLocation": "sitemap.json",
-  "tabBar": {
-    "color": "#959394",
-    "selectedColor": "#959394",
-    "backgroundColor": "#f0f0f0",
-    "borderStyle": "white",
-    "list": [
-      {
-        "pagePath": "pages/tabOne/tabOne",
-        "iconPath": "pages/images/1.png",
-        "selectedIconPath": "pages/images/1.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/tabTwo/tabTwo",
-        "iconPath": "pages/images/2.png",
-        "selectedIconPath": "pages/images/2.png",
-        "text": "朋友"
-      },
-      {
-        "pagePath": "pages/wxkey/wxkey",
-        "iconPath": "pages/images/3.png",
-        "selectedIconPath": "pages/images/3.png",
-        "text": "wxkey"
-      },
-      {
-        "pagePath": "pages/reqjs/reqjs",
-        "iconPath": "pages/images/1.png",
-        "selectedIconPath": "pages/images/1.png",
-        "text": "加载其他js"
-      }
-    ]
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/tabOne/tabOne",
+        "pages/logs/logs",
+        "pages/welcom/welcom",
+        "pages/tabTwo/tabTwo",
+        "pages/wxkey/wxkey",
+        "pages/getopt/getopt",
+        "pages/reqjs/reqjs",
+        "pages/template/mytmp",
+        "pages/form/form"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "测试小程序",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color": "#959394",
+        "selectedColor": "#959394",
+        "backgroundColor": "#f0f0f0",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/tabOne/tabOne",
+                "iconPath": "pages/images/1.png",
+                "selectedIconPath": "pages/images/1.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/tabTwo/tabTwo",
+                "iconPath": "pages/images/2.png",
+                "selectedIconPath": "pages/images/2.png",
+                "text": "朋友"
+            },
+            {
+                "pagePath": "pages/wxkey/wxkey",
+                "iconPath": "pages/images/3.png",
+                "selectedIconPath": "pages/images/3.png",
+                "text": "wxkey"
+            },
+            {
+                "pagePath": "pages/reqjs/reqjs",
+                "iconPath": "pages/images/1.png",
+                "selectedIconPath": "pages/images/1.png",
+                "text": "加载其他js"
+            },
+            {
+                "pagePath": "pages/form/form",
+                "iconPath": "pages/images/2.png",
+                "selectedIconPath": "pages/images/2.png",
+                "text": "form"
+            }
+        ]
+    }
 }

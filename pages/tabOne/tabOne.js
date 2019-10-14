@@ -108,12 +108,12 @@ Page({
 
   previewImage: function(e) {
     console.log(e)
-    var that = this,
+    var that = this;
     //获取当前图片的下表
-    index = e.target.dataset.index,
-    //数据源
-    pictures = this.data.pictures;
-    console.log(pictures[index])
+    let index = e.target.dataset.index;
+//     //数据源
+    let pictures = this.data.pictures;
+    console.log(pictures[index]);
     wx.previewImage({
       //当前显示下表
       current: pictures[index],

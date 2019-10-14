@@ -9,8 +9,8 @@
 
     <button bindtap="bindViewTap" type="submit">点击我显示图片</button>
     <image src="{{avatarUrl}}" mode="aspectFill" class="widget_arrow3"></image>
-    <view wx:for="{{pictures}}" wx:key="unique" wx:for-item="url" data-index="{{index}}" >
-    <image bindtap="previewImage"  src="{{url}}" class="widget_arrow3"></image>
+    <view wx:for="{{pictures}}" wx:key="unique" wx:for-item="url"  >
+    <image bindtap="previewImage"  src="{{url}}" data-index="{{index}}"  data-imgsrc="{{url}}" class="widget_arrow3" ></image>
     <navigator url="/pages/getopt/getopt?pic_url={{url}}">去首页接收参数吧</navigator>
     </view>
 </view>
